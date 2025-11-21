@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formu</title>
+</head>
+<body>
+    <h1>test of fomrulari</h1>
+    <form action="python.py" method="post">
+        <p>
+            <label for="inome">people: </label>
+            <input type="text" name="nome" id="inome" required minlength="4" maxlength="10" size="10">
+        </p>
+        <p>
+            <label for="isenha">senha: </label>
+            <input type="password" name="senha" id="isenha" required minlength='5' maxlength='8'>
+            <input type="submit" value="confirm">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+</body>
+</html>
