@@ -1,3 +1,32 @@
 @charset "UTF-8";
 
 /*style for screen*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+header{
+    background-color: rgb(231, 8, 8);
+}
+header > h1{
+    text-align: center;
+    color: white;
+}
+menu > ul{
+    list-style-type: none;
+    background-color: rgb(155, 14, 14);
+}
+menu li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+article{
+    margin: auto;
+    width: 300px;
+    display: block;
+}
