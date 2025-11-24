@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gmail</title>
+</head>
+<body>
+    <h1>gmail and celphone</h1>
+    <form action="cadastro.python" method="get" autocomplete="off">
+    <fieldset>
+        <legend>dados pessoais</legend>
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+        </p>
+        <p>
+            <label for="iemail">Gmail:</label>
+            <input type="email" name="gmail" id="iemail" required>
+        </p>
+        <p>
+            <label for="itel">Phone Number:</label>
+            <input type="tel" name="phone" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4-5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">
+        </p>
+
+    </fieldset>
+            <p>
+            <input type="submit" value="confirm">
+            <input type="reset" value="cancelar">
+        </p>
+    </form>    
+</body>
+</html>
