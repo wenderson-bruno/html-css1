@@ -30,6 +30,7 @@ menu > ul > li > a{
     background-color: rgba(194, 23, 23, 0.788);
     color: rgb(255, 255, 255);
     border-top: 2px solid rgb(180, 37, 16);
+    border-radius: 10px;
 }
 menu > ul > li > a:hover{
     background-color: rgba(224, 14, 14, 0.411);
